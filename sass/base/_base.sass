@@ -1,0 +1,100 @@
+//Base Landing Page Style
+
+body
+    height: 100%
+    font-family: $font-josefin
+    background-image: url("../assets/stardust_@2x.png")
+    
+h1
+    color: $white
+    font-size: 2.125em
+    @include breakpoint(smalldevices)
+        font-size: 3.438em
+    a
+        color: $white
+        display: inline-block
+        text-decoration: none
+        border-bottom: 1px solid #fff
+        margin-bottom: 1px
+        line-height: .7em
+h2
+    color: $white
+    font-size: 1.313em
+    @include breakpoint(smalldevices)
+        font-size: 2.125em
+    a
+        color: $white
+        display: inline-block
+        text-decoration: none
+        border-bottom: 1px solid #fff
+        margin-bottom: 1px
+        line-height: .7em
+        
+#equation
+    top: 7em
+    @include breakpoint(smalldevices)
+        top: 4em
+        
+#name
+    top: 6.5em
+    @include breakpoint(smalldevices)
+        top: 3.5em
+        
+#contact
+    position: absolute
+    bottom: 2em
+
+//Landing Page Hovers
+
+#design
+    &:hover
+        color: #674172
+    
+#code
+    &:hover
+        color: #019875
+    
+#strategy
+    &:hover
+        color: #BDC3C7
+    
+#name-link
+    &:hover
+        color: #2574A9
+    
+#contact-link
+    &:hover
+        color: #22313F
+    
+.bg
+    width: 100%
+    height: 100vh
+    background-size: cover
+    background-repeat: no-repeat
+    z-index: -1
+    position: absolute
+    
+#bg-design
+    @extend .bg
+    @include breakpoint(smalldevices)
+        background-image: url("../assets/Proof-Header.png")
+
+#bg-code
+    @extend .bg
+    @include breakpoint(smalldevices)
+        background-image: url("../assets/Proof-Header.png")
+    
+#bg-strategy
+    @extend .bg
+    @include breakpoint(smalldevices)
+        background-image: url("../assets/Proof-Header.png")
+    
+#bg-name
+    @extend .bg
+    @include breakpoint(smalldevices)
+        background-image: url("../assets/Proof-Header.png")
+    
+#bg-contact
+    @extend .bg
+    @include breakpoint(smalldevices)
+        background-image: url("../assets/Proof-Header.png")
