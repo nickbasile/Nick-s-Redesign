@@ -10,23 +10,23 @@ jQuery(document).ready(function ($) {
     $("#bg-contact").hide();
     
     $("#design").hover(function () {
-        $("#bg-design").fadeToggle(400);
+        $("#bg-design").fadeToggle(500);
     });
     
     $("#code").hover(function () {
-        $("#bg-code").fadeToggle(400);
+        $("#bg-code").fadeToggle(500);
     });
     
     $("#strategy").hover(function () {
-        $("#bg-strategy").fadeToggle(400);
+        $("#bg-strategy").fadeToggle(500);
     });
     
     $("#name-link").hover(function () {
-        $("#bg-name").fadeToggle(400);
+        $("#bg-name").fadeToggle(500);
     });
     
     $("#contact-link").hover(function () {
-        $("#bg-contact").fadeToggle(400);
+        $("#bg-contact").fadeToggle(500);
     });
 
 });

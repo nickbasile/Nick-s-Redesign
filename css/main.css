@@ -244,12 +244,13 @@ h2 {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   z-index: -1;
   position: absolute; }
 
 @media (min-width: 680px) {
   #bg-design {
-    background-image: url("../assets/Proof-Header.png"); } }
+    background-image: url("../assets/design-image.jpg"); } }
 
 @media (min-width: 680px) {
   #bg-code {
@@ -261,7 +262,7 @@ h2 {
 
 @media (min-width: 680px) {
   #bg-name {
-    background-image: url("../assets/Proof-Header.png"); } }
+    background-image: url("../assets/name-image.jpg"); } }
 
 @media (min-width: 680px) {
   #bg-contact {
