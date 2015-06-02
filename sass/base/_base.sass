@@ -3,7 +3,6 @@
 body
     height: 100%
     font-family: $font-josefin
-    background-image: url("../assets/stardust_@2x.png")
     
 h1
     color: $white
@@ -74,6 +73,47 @@ h2
     background-position: center
     z-index: -1
     position: absolute
+    
+#stars
+    @extend .bg
+    background-image: url("../assets/stardust_@2x.png")
+    
+@keyframes move-twink-back
+    from
+        background-position: 0 0
+    to
+        background-position: -10000px 5000px
+
+
+@-webkit-keyframes move-twink-back
+    from
+        background-position: 0 0
+    to
+        background-position: -10000px 5000px
+
+
+@-moz-keyframes move-twink-back
+    from
+        background-position: 0 0
+    to
+        background-position: -10000px 5000px
+
+
+@-ms-keyframes move-twink-back
+    from
+        background-position: 0 0
+    to
+        background-position: -10000px 5000px
+
+.twinkling
+    @extend .bg
+    background: url("../assets/Twinkle.png") repeat top left
+    z-index: 0
+    -moz-animation: move-twink-back 100s linear infinite
+    -ms-animation: move-twink-back 100s linear infinite
+    -o-animation: move-twink-back 100s linear infinite
+    -webkit-animation: move-twink-back 100s linear infinite
+    animation: move-twink-back 100s linear infinite  
     
 #bg-design
     @extend .bg

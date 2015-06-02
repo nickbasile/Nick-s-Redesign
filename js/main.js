@@ -10,6 +10,7 @@ jQuery(document).ready(function ($) {
     $("#bg-contact").hide();
     
     $("#design").hover(function () {
+        $("#twinkle").toggle(500);
         $("#bg-design").fadeToggle(500);
     });
     
