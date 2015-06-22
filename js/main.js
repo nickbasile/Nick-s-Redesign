@@ -2,15 +2,8 @@
 /*global $, jQuery, alert*/
 
 jQuery(document).ready(function ($) {
-
-    $("#bg-design").hide();
-    $("#bg-code").hide();
-    $("#bg-strategy").hide();
-    $("#bg-name").hide();
-    $("#bg-contact").hide();
     
     $("#design").hover(function () {
-        $("#twinkle").toggle(500);
         $("#bg-design").fadeToggle(500);
     });
     

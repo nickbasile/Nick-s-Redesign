@@ -177,7 +177,8 @@ th {
 
 body {
   height: 100%;
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Sans Serif; }
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Sans Serif;
+  background-color: #444349; }
 
 h1 {
   color: #FFF;
@@ -224,60 +225,29 @@ h2 {
   bottom: 2em; }
 
 #design:hover {
-  color: #674172; }
+  color: #3ABADD; }
 
 #code:hover {
-  color: #019875; }
+  color: #047878; }
 
 #strategy:hover {
-  color: #BDC3C7; }
+  color: #F57336; }
 
 #name-link:hover {
-  color: #2574A9; }
+  color: #C22121; }
 
 #contact-link:hover {
-  color: #22313F; }
+  color: #FFB733; }
 
-.bg, #stars, .twinkling, #bg-design, #bg-code, #bg-strategy, #bg-name, #bg-contact {
+.bg, #bg-design, #bg-code, #bg-strategy, #bg-name, #bg-contact {
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   z-index: -1;
-  position: absolute; }
-
-#stars {
-  background-image: url("../assets/stardust_@2x.png"); }
-
-@keyframes move-twink-back {
-  from {
-    background-position: 0 0; }
-  to {
-    background-position: -10000px 5000px; } }
-@-webkit-keyframes move-twink-back {
-  from {
-    background-position: 0 0; }
-  to {
-    background-position: -10000px 5000px; } }
-@-moz-keyframes move-twink-back {
-  from {
-    background-position: 0 0; }
-  to {
-    background-position: -10000px 5000px; } }
-@-ms-keyframes move-twink-back {
-  from {
-    background-position: 0 0; }
-  to {
-    background-position: -10000px 5000px; } }
-.twinkling {
-  background: url("../assets/Twinkle.png") repeat top left;
-  z-index: 0;
-  -moz-animation: move-twink-back 100s linear infinite;
-  -ms-animation: move-twink-back 100s linear infinite;
-  -o-animation: move-twink-back 100s linear infinite;
-  -webkit-animation: move-twink-back 100s linear infinite;
-  animation: move-twink-back 100s linear infinite; }
+  position: absolute;
+  display: none; }
 
 @media (min-width: 680px) {
   #bg-design {
